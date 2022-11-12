@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
+}
+
+.centered {
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.cards {
+    /* border: solid 1px blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /* border: solid 1px green; */
+    flex: 0 1 20em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card>img {
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.card>button {
+    position: relative;
+    left: 50%;
+    bottom: -4%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    border-radius: .5em;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}

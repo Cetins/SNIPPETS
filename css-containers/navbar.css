@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);;
+}
+
+.nav-links {
+    display: flex;
+}
+.nav-item {
+    margin: .5em;
+    list-style: none;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    color: black;
+}

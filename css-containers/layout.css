@@ -1,0 +1,27 @@
+.layout {
+    height: 90vh;
+    width: 90vh;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        "nav"
+        "main"
+        "foot";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto;
+}
+
+.navbar {
+    background-color: lightcoral;
+    grid-area: nav;
+}
+
+.main {
+    background-color: lightblue;
+    grid-area: main;
+}
+
+.footer {
+    background-color: lightgreen;
+    grid-area: foot;
+}
